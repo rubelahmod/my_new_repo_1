@@ -1,0 +1,102 @@
+/* common shared styles */
+h3{
+   
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto; 
+  font-style: normal;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav_title{
+    color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+}
+.color{
+    color: #FD6E0A;
+}
+
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+.btn_primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+
+    color: var(--White-Color, #FFF);
+    font-size: 20px; 
+    font-weight: 400;
+    padding: 16px 32px;
+}
+
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile_pic{
+    width: 520px;
+    height: 576px;
+}
+.banner_greating{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.banner_title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.banner_description{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.banner_content{
+    max-width: 500px;
+}
+
+/* section related styles */
+.about{
+    padding: 130px 150px 350px 150px;
+    border-radius: 10px;
+    background: #ded4ce;
+    margin: 130px 0;
+}
+.section_title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section_description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
